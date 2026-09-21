@@ -47,7 +47,7 @@ Two tools are represented: the user's supplied Stitch design and this Codex impl
 
 - Actual same-prompt comparison evidence and the original Stitch prompt.
 - Student review/feedback on the refined design and any subsequent iteration screenshots.
-- GitHub backup: the installed CLI reports the rjyates token is invalid; reauthentication is required before creating/pushing a GitHub repository.
+- GitHub backup: authentication verified successfully with network access. A dedicated private repository is being created for this portfolio.
 - Final audience/access setting for sharing the site with instructors and employers.
 - Student's 5–10 minute Loom video and personal reflection.
 - Notion submission page and Blackboard submission.
