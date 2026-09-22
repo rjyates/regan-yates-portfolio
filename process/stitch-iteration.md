@@ -65,3 +65,7 @@ Regan requested a site about their work and direction rather than another resume
 ## Supplied PDF resume
 
 Added Regan_Yates_Resume.pdf exactly as supplied, with downloads on the resume and quick-links pages. Regan explicitly chose to keep the onboarding proposal in this PDF only; the homepage still excludes it. The LinkedIn hyperlink in the PDF points to the existing profile, despite its shortened display label.
+
+## Career direction language and LinkedIn
+
+Removed specific target job titles from the direction section at Regan's request. Now describes technology leadership and management, with cybersecurity, systems architecture, automation, and business transformation as interests. Verified the supplied LinkedIn profile matches the existing canonical profile links in the footer and mobile quick-links page; omitted tracking query parameters.
