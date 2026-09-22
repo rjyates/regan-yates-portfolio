@@ -1,4 +1,16 @@
-# Baseline portfolio record
+# Official resume-only baseline
+
+Baseline URL: https://regan-yates-systems-portfolio.reyyates.chatgpt.site
+
+Regan supplied this URL and identified it as the resume-only baseline created in another chat. Use this as the assignment baseline. The earlier local artifact below remains a historical draft, not the selected submission baseline.
+
+The exact prompt, model/tool identity, and source resume used in that other chat have not been independently verified here. Preserve that chat or its prompt and output screenshots for submission evidence. The web reader could not access this URL; that does not establish whether it is public or private, or whether it works in a signed-in browser.
+
+This completes the baseline artifact entry based on Regan's confirmation. A controlled comparison across different tools/models using the same prompt remains a separate requirement.
+
+---
+
+# Earlier local baseline record
 
 Date: 2026-09-21
 Tool: OpenAI Codex, current conversation. No independent model comparison has been performed.

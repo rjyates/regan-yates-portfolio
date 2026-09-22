@@ -69,3 +69,7 @@ Added Regan_Yates_Resume.pdf exactly as supplied, with downloads on the resume a
 ## Career direction language and LinkedIn
 
 Removed specific target job titles from the direction section at Regan's request. Now describes technology leadership and management, with cybersecurity, systems architecture, automation, and business transformation as interests. Verified the supplied LinkedIn profile matches the existing canonical profile links in the footer and mobile quick-links page; omitted tracking query parameters.
+
+## Separate-chat baseline supplied
+
+Regan identified https://regan-yates-systems-portfolio.reyyates.chatgpt.site as the resume-only baseline created in another chat. It replaces the earlier local draft as the selected assignment baseline. Preserve its prompt/chat and screenshots; no need to generate another baseline. This does not by itself complete the same-prompt, multiple-model comparison.
