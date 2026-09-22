@@ -25,13 +25,13 @@ The preserved output uses a navy-and-lime design, project cards, a substantial e
 
 ### Visual direction — Google Stitch
 
-Regan supplied the Stitch export, including code.html, screen.png, and DESIGN.md. Its editorial design uses Newsreader headings, Inter body text, monospaced labels, warm paper backgrounds, bronze accents, and structured layouts. Regan confirmed that Stitch began with the same prompt, “Build me a portfolio page based on my resume”, then was revised in response to Stitch's questions and feedback. The exported design and supplied canvas screenshot show the iterated result, not a verified untouched first response. The exact Stitch model version is not recorded.
+Regan supplied the Stitch export, including code.html, screen.png, and DESIGN.md. Its editorial design uses Newsreader headings, Inter body text, monospaced labels, warm paper backgrounds, bronze accents, and structured layouts. Regan clarified that Stitch was asked to make a professional editorial-style portfolio site, then refined through its questions and feedback. This was a different starting prompt from the resume-only experiment. The exported design and supplied canvas screenshot show the iterated result, not a verified untouched first response. The exact Stitch model version is not recorded.
 
 The export was treated as a design reference rather than evidence of professional achievements. Example persona, executive claims, financial results, and illustrative metrics were removed from the implemented portfolio.
 
 ### Refined portfolio — Codex with Regan's direction
 
-The selected design was implemented as a responsive static site with working navigation, project filtering, a mobile networking page, LinkedIn, and a downloadable resume. Regan determined the audience, visual direction, content priorities, and what to remove. Codex implemented and refined the site and assisted with verification, hosting, Git history, and this documentation.
+Regan brought the Stitch design into Codex and asked Codex to apply it to the website with the resume as reference. The selected design was implemented as a responsive static site with working navigation, project filtering, a mobile networking page, LinkedIn, and a downloadable resume. Regan determined the audience, visual direction, content priorities, and what to remove. Codex implemented and refined the site and assisted with verification, hosting, Git history, and this documentation.
 
 Recorded user directions include:
 
@@ -47,10 +47,20 @@ These edits made the site more intentional: OneGauge, Luther, and Vera became th
 
 The baseline defaults to a technical-professional identity and a resume-like information structure. The Stitch reference favors executive editorial styling and includes example authority/impact claims that needed removal. The final version combines the selected visual direction with a more personal overview and accurate project maturity.
 
-This is an artifact/process comparison, not a controlled model comparison. Both tools began with the same prompt according to Regan. Subsequent Stitch questions and revisions introduced additional direction, so differences in the preserved results cannot be attributed solely to model quality. The artifacts also reveal design assumptions: technical work is framed through code/operations in the baseline, while the Stitch reference signals leadership through formal typography and impact metrics. Neither style is inherently more credible, and generated seniority or results must be verified.
+This is an artifact/process comparison, not a controlled model comparison. Stitch received a different, style-directed prompt and later feedback. Its comparison with the final site documents design iteration, not a controlled model experiment. The artifacts also reveal design assumptions: technical work is framed through code/operations in the baseline, while the Stitch reference signals leadership through formal typography and impact metrics. Neither style is inherently more credible, and generated seniority or results must be verified.
 
-### Same starting prompt and subsequent iteration
-Regan confirms using the same starting prompt in Codex and Google Stitch, then refining Stitch through questions and feedback. The comparison above documents the preserved outcomes and their different stages. There is no need to run a third tool just to establish use of two tools. If available, add Stitch's initial response and follow-up conversation to strengthen the evidence of how the design evolved; the current screenshot and export represent the later iteration.
+### Same-prompt comparison — Codex and Claude
+
+Regan supplied the [Claude portfolio](https://claude.ai/artifact/EppNqrwEJZuFMmXeq7RTxK) and confirmed it used the same “Build me a portfolio page based on my resume” prompt. Codex and Claude are the two tools for this comparison; Stitch is the separate design-refinement stage. Exact model versions and Claude's attached resume file version are not recorded.
+
+The Claude artifact was inspected in the browser on September 22, 2026. It loaded without signing in and its sharing control reported access for anyone with the link.
+
+- Layout: Codex leads with “Systems thinking. Hands-on building.” and places projects before experience. Claude leads with Regan's name, role labels, and an at-a-glance metrics group, followed by profile and experience before projects.
+- Tone: Both emphasize technical breadth and operational work. Codex emphasizes hands-on building; Claude emphasizes systems that scale. These are generated framing choices, not new credentials.
+- Content: Both retain detailed employment, skills, education, Vera, Luther, Index, and the TAP onboarding proposal. Claude gives the proposal a separate callout. The final portfolio instead prioritizes OneGauge, Luther, and Vera, omits the proposal from the homepage, and leaves detailed history to the resume.
+- Assumptions and bias: Both interpret a portfolio request mainly as a structured resume. Claude elevates organizational scale figures to the hero, which can imply individual impact if not contextualized. Its Vera label is “Personal Project” without a clear in-design label; Codex explicitly labels Vera “In Design.” Claude also says Index details will be shared “when it ships,” a future commitment that should not be accepted without Regan's approval.
+- Decision: Retain clear contact links and concise technical framing; use the intentionally selected Stitch editorial direction and Regan's content priorities for the final site. No claim is made that one underlying model is generally better.
+- Verification limits: This comparison covers visible desktop content and structure. Claude's mobile layout, copy-email behavior, and full interaction flow have not been tested here. Save an export or screenshots as additional evidence if available.
 
 ## Reflection — AI-assisted draft for Regan to review
 
@@ -64,7 +74,7 @@ Best practices: Treat AI as a collaborator whose output needs review. Separate d
 
 - 0:00–0:45: Introduce yourself, the assignment, and the professional audience.
 - 0:45–1:45: Show the Codex baseline, exact prompt, and what it assumed from the resume.
-- 1:45–2:45: Show the Stitch result and explain that it began with the same prompt, then evolved through questions and feedback. Compare concrete differences and design assumptions.
+- 1:45–2:45: Show the Claude artifact alongside the Codex baseline, identify the shared resume-only prompt, and compare ordering, tone, scope metrics, and project-status assumptions.
 - 2:45–3:45: Show the original Stitch screenshot and chosen typography, palette, and layout. Explain why you selected this direction in your own words.
 - 3:45–5:15: Walk through the final site. Explain the projects-only decision, overview versus resume, leadership direction, and cybersecurity interest.
 - 5:15–6:15: Show /links/ at phone width; open LinkedIn and demonstrate the resume download.
@@ -80,8 +90,8 @@ Use this as an outline, not a claim that the recording exists. Add the Loom URL 
 - [x] Preserve the baseline and original Stitch files.
 - [x] Save source and meaningful history in GitHub.
 - [x] Document known prompts, decisions, and tool roles.
-- [x] Document Codex and Stitch's shared starting prompt, outcome comparison, and later iteration (confirmed by Regan).
-- [ ] Add the initial Stitch response/follow-up history and other inspiration sources if available; the original prompt is now documented.
+- [x] Document Codex and Claude's shared starting prompt and observed output comparison; distinguish the separately prompted Stitch iteration.
+- [ ] Add Claude screenshots/export and Stitch follow-up history if available to strengthen the preserved evidence.
 - [ ] Review and personalize the reflection.
 - [ ] Record and add the 5–10 minute Loom.
 - [ ] Confirm instructor access to the Notion page, attachments, Loom, and any private GitHub repository.
