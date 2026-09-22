@@ -1,39 +1,39 @@
 # Regan Yates — Module 2 portfolio submission draft
 
-Prepared September 22, 2026. AI-assisted documentation for Regan to review before submission.
+I prepared this draft with AI assistance on September 22, 2026. I will review it before submitting.
 
 ## Deliverables
 
 - Final portfolio: https://regan-yates-portfolio.reyyates.chatgpt.site
 - Mobile networking page: https://regan-yates-portfolio.reyyates.chatgpt.site/links/
 - Resume-only baseline: https://regan-yates-systems-portfolio.reyyates.chatgpt.site
-- GitHub: https://github.com/rjyates/regan-yates-portfolio (private; instructor access must be arranged if required).
+- GitHub: https://github.com/rjyates/regan-yates-portfolio (my repository is private; I will arrange instructor access if required).
 - Resume: https://regan-yates-portfolio.reyyates.chatgpt.site/Regan_Yates_Resume.pdf
-- Loom: TO ADD — student recording, 5–10 minutes.
+- Loom: I still need to add my 5–10 minute recording.
 
 ## Purpose and audience
 
-The portfolio introduces my work and direction to potential employers and professional contacts. It emphasizes systems thinking, architecture, automation, cybersecurity interests, and progress toward technology leadership and management. Detailed employment history remains in the resume. The website has its own hosting and repository, separate from my assistant projects.
+I use this portfolio to introduce my work and direction to potential employers and professional contacts. I emphasize systems thinking, architecture, automation, cybersecurity interests, and progress toward technology leadership and management. I keep my detailed employment history in my resume. I use separate hosting and a dedicated repository for this website, apart from my assistant projects.
 
 ## Prototypes and AI attribution
 
 ### Resume-only baseline — Codex
 
-Exact user prompt: “Build me a portfolio page based on my resume” with Regan_Yates_Resume_Rebuilt_With_Links.docx attached. Regan confirmed this prompt; the original task, Build resume portfolio page, independently records it. The model version is not established by the available task record.
+My exact prompt was: “Build me a portfolio page based on my resume” with Regan_Yates_Resume_Rebuilt_With_Links.docx attached. I used this prompt in my task, Build resume portfolio page. I do not have the exact model version recorded.
 
-The preserved output uses a navy-and-lime design, project cards, a substantial experience section, technical toolkit, education, and a resume download. It includes Vera, Luther, and the unfinished Index entry; it places OneGauge in the employment section. It also includes the onboarding proposal. These are observations of the saved HTML, not a claim that every baseline statement has been independently validated.
+I preserved the output, which uses a navy-and-lime design, project cards, a substantial experience section, technical toolkit, education, and a resume download. It includes Vera, Luther, and the unfinished Index entry; it places OneGauge in the employment section. It also includes the onboarding proposal. I am describing the saved HTML here; I have not independently validated every baseline statement.
 
 ### Visual direction — Google Stitch
 
-Regan supplied the Stitch export, including code.html, screen.png, and DESIGN.md. Its editorial design uses Newsreader headings, Inter body text, monospaced labels, warm paper backgrounds, bronze accents, and structured layouts. Regan clarified that Stitch was asked to make a professional editorial-style portfolio site, then refined through its questions and feedback. This was a different starting prompt from the resume-only experiment. The exported design and supplied canvas screenshot show the iterated result, not a verified untouched first response. The exact Stitch model version is not recorded.
+I supplied the Stitch export, including code.html, screen.png, and DESIGN.md. Its editorial design uses Newsreader headings, Inter body text, monospaced labels, warm paper backgrounds, bronze accents, and structured layouts. I asked Stitch to make a professional editorial-style portfolio site, then refined it through its questions and feedback. This was a different starting prompt from the resume-only experiment. I preserved the iterated design in my export and canvas screenshot. I have not established that either represents the untouched first response, and I have not recorded the exact Stitch model version.
 
-The export was treated as a design reference rather than evidence of professional achievements. Example persona, executive claims, financial results, and illustrative metrics were removed from the implemented portfolio.
+I used the export as a design reference. With Codex's help, I removed its example persona, executive claims, financial results, and illustrative metrics so they would not be presented as my achievements.
 
-### Refined portfolio — Codex with Regan's direction
+### My refined portfolio — working with Codex
 
-Regan brought the Stitch design into Codex and asked Codex to apply it to the website with the resume as reference. The selected design was implemented as a responsive static site with working navigation, project filtering, a mobile networking page, LinkedIn, and a downloadable resume. Regan determined the audience, visual direction, content priorities, and what to remove. Codex implemented and refined the site and assisted with verification, hosting, Git history, and this documentation.
+I brought the Stitch design into Codex and asked it to apply the design to my website with my resume as reference. I used Codex to implement a responsive static site with working navigation, project filtering, a mobile networking page, LinkedIn, and a downloadable resume. I determined the audience, visual direction, content priorities, and what to remove. I used Codex for implementation, refinement, verification, hosting, Git history, and assistance with this documentation.
 
-Recorded user directions include:
+Some of my recorded directions were:
 
 - “here is the front end i designed with stitch. please use this”
 - “i don't think i really want to have my onboarding improvement proposal on the website. just projects for now”
@@ -41,60 +41,60 @@ Recorded user directions include:
 - “Keep it in the résumé only” — about the onboarding proposal.
 - “under the 'where I'm headed' section I don't want to specify job titles” and “I also want to include cybersecurity as an interest in that section”.
 
-These edits made the site more intentional: OneGauge, Luther, and Vera became the selected projects; the resume carries detailed history; the direction section describes interests and leadership ambitions without presenting future titles as current credentials.
+I made the site more intentional through these edits: OneGauge, Luther, and Vera became the selected projects; the resume carries detailed history; the direction section describes interests and leadership ambitions without presenting future titles as current credentials.
 
 ## Comparison and limits
 
-The baseline defaults to a technical-professional identity and a resume-like information structure. The Stitch reference favors executive editorial styling and includes example authority/impact claims that needed removal. The final version combines the selected visual direction with a more personal overview and accurate project maturity.
+I found that the baseline defaults to a technical-professional identity and a resume-like information structure. The Stitch reference favors executive editorial styling and includes example authority/impact claims that needed removal. The final version combines the selected visual direction with a more personal overview and accurate project maturity.
 
-This is an artifact/process comparison, not a controlled model comparison. Stitch received a different, style-directed prompt and later feedback. Its comparison with the final site documents design iteration, not a controlled model experiment. The artifacts also reveal design assumptions: technical work is framed through code/operations in the baseline, while the Stitch reference signals leadership through formal typography and impact metrics. Neither style is inherently more credible, and generated seniority or results must be verified.
+I use this comparison to explain my design process. I gave Stitch a different, style-directed prompt and later feedback, so I do not treat its comparison with the final site as a controlled model experiment. The artifacts also reveal design assumptions: technical work is framed through code/operations in the baseline, while the Stitch reference signals leadership through formal typography and impact metrics. I do not consider either style inherently more credible, and I need to verify any generated seniority or results.
 
 ### Same-prompt comparison — Codex and Claude
 
-Regan supplied the [Claude portfolio](https://claude.ai/artifact/EppNqrwEJZuFMmXeq7RTxK) and confirmed it used the same “Build me a portfolio page based on my resume” prompt. Codex and Claude are the two tools for this comparison; Stitch is the separate design-refinement stage. Exact model versions and Claude's attached resume file version are not recorded.
+I supplied the [Claude portfolio](https://claude.ai/artifact/EppNqrwEJZuFMmXeq7RTxK) after using the same “Build me a portfolio page based on my resume” prompt. I compare Codex and Claude for the same-prompt experiment and use Stitch for the separate design-refinement stage. I have not recorded the exact model versions or the resume file version attached in Claude.
 
-The Claude artifact was inspected in the browser on September 22, 2026. It loaded without signing in and its sharing control reported access for anyone with the link.
+I used Codex to inspect the Claude artifact in the browser on September 22, 2026. In that check, it loaded without signing in and its sharing control reported access for anyone with the link.
 
-- Layout: Codex leads with “Systems thinking. Hands-on building.” and places projects before experience. Claude leads with Regan's name, role labels, and an at-a-glance metrics group, followed by profile and experience before projects.
-- Tone: Both emphasize technical breadth and operational work. Codex emphasizes hands-on building; Claude emphasizes systems that scale. These are generated framing choices, not new credentials.
-- Content: Both retain detailed employment, skills, education, Vera, Luther, Index, and the TAP onboarding proposal. Claude gives the proposal a separate callout. The final portfolio instead prioritizes OneGauge, Luther, and Vera, omits the proposal from the homepage, and leaves detailed history to the resume.
-- Assumptions and bias: Both interpret a portfolio request mainly as a structured resume. Claude elevates organizational scale figures to the hero, which can imply individual impact if not contextualized. Its Vera label is “Personal Project” without a clear in-design label; Codex explicitly labels Vera “In Design.” Claude also says Index details will be shared “when it ships,” a future commitment that should not be accepted without Regan's approval.
-- Decision: Retain clear contact links and concise technical framing; use the intentionally selected Stitch editorial direction and Regan's content priorities for the final site. No claim is made that one underlying model is generally better.
-- Verification limits: This comparison covers visible desktop content and structure. Claude's mobile layout, copy-email behavior, and full interaction flow have not been tested here. Save an export or screenshots as additional evidence if available.
+- Layout: I found that Codex leads with “Systems thinking. Hands-on building.” and places projects before experience. Claude leads with my name, role labels, and an at-a-glance metrics group, followed by profile and experience before projects.
+- Tone: I found that both emphasize technical breadth and operational work. Codex emphasizes hands-on building; Claude emphasizes systems that scale. These are generated framing choices, not new credentials.
+- Content: I found that both retain detailed employment, skills, education, Vera, Luther, Index, and the TAP onboarding proposal. Claude gives the proposal a separate callout. The final portfolio instead prioritizes OneGauge, Luther, and Vera, omits the proposal from the homepage, and leaves detailed history to the resume.
+- Assumptions and bias: I noticed that both interpret a portfolio request mainly as a structured resume. Claude elevates organizational scale figures to the hero, which can imply individual impact if not contextualized. Its Vera label is “Personal Project” without a clear in-design label; Codex explicitly labels Vera “In Design.” Claude also says Index details will be shared “when it ships,” a future commitment I would need to approve before publishing.
+- Decision: I chose to retain clear contact links and concise technical framing while using the Stitch editorial direction and my content priorities for the final site. I am not claiming that one underlying model is generally better.
+- Verification limits: My documented comparison covers visible desktop content and structure. I have not completed testing of Claude's mobile layout, copy-email behavior, or full interaction flow. I can add an export or screenshots to strengthen my evidence.
 
-## Reflection — AI-assisted draft for Regan to review
+## My reflection — AI-assisted draft
 
 What worked: Giving AI concrete feedback about purpose was more useful than accepting its first design. The resume supplied facts, but it did not fully communicate the direction I wanted for my career. Selecting a Stitch design and then refining the homepage around projects, systems thinking, and leadership interests made the site more relevant to my professional goals. Keeping the full resume separate helped the homepage stay focused.
 
 What I would do differently: I would save every tool's exact prompt, model information, and unedited output from the start. I would preserve each tool's first response before answering follow-up questions or refining the output, making the initial comparison easier to separate from later iteration. I would also define the audience and content boundaries earlier, especially the difference between current accomplishments and future interests.
 
-Best practices: Treat AI as a collaborator whose output needs review. Separate design inspiration from factual claims. Make one clear content or design decision at a time, preserve earlier versions, verify links and mobile layouts, and retain a record of why changes were made. Never adopt generated metrics or credentials without evidence.
+Best practices: I would treat AI as a collaborator whose output needs review, separate design inspiration from factual claims, and make one clear content or design decision at a time. I would preserve earlier versions, verify links and mobile layouts, and record why I made changes. I would not adopt generated metrics or credentials without evidence.
 
 ## Loom outline — target 7–8 minutes
 
-- 0:00–0:45: Introduce yourself, the assignment, and the professional audience.
-- 0:45–1:45: Show the Codex baseline, exact prompt, and what it assumed from the resume.
-- 1:45–2:45: Show the Claude artifact alongside the Codex baseline, identify the shared resume-only prompt, and compare ordering, tone, scope metrics, and project-status assumptions.
-- 2:45–3:45: Show the original Stitch screenshot and chosen typography, palette, and layout. Explain why you selected this direction in your own words.
-- 3:45–5:15: Walk through the final site. Explain the projects-only decision, overview versus resume, leadership direction, and cybersecurity interest.
-- 5:15–6:15: Show /links/ at phone width; open LinkedIn and demonstrate the resume download.
-- 6:15–6:45: Show the GitHub repository and meaningful commits.
-- 6:45–7:45: Reflect on what worked, what you would change, and how you verified AI output.
+- 0:00–0:45: I will introduce myself, the assignment, and my professional audience.
+- 0:45–1:45: I will show the Codex baseline, exact prompt, and what it assumed from the resume.
+- 1:45–2:45: I will show the Claude artifact alongside the Codex baseline, identify the shared resume-only prompt, and compare ordering, tone, scope metrics, and project-status assumptions.
+- 2:45–3:45: I will show the original Stitch screenshot and chosen typography, palette, and layout. I will explain why I selected this direction in my own words.
+- 3:45–5:15: I will walk through my final site and explain the projects-only decision, overview versus resume, leadership direction, and cybersecurity interest.
+- 5:15–6:15: I will show /links/ at phone width, open LinkedIn, and demonstrate my resume download.
+- 6:15–6:45: I will show my GitHub repository and meaningful commits.
+- 6:45–7:45: I will reflect on what worked, what I would change, and how I used verification to review AI output.
 
-Use this as an outline, not a claim that the recording exists. Add the Loom URL above and test viewer access.
+This is my recording outline; I have not added the finished recording yet. I still need to add the Loom URL above and test viewer access.
 
 ## Final submission checklist
 
-- [x] Build and publicly host the refined portfolio.
-- [x] Build /links/ inside the same site.
-- [x] Preserve the baseline and original Stitch files.
-- [x] Save source and meaningful history in GitHub.
-- [x] Document known prompts, decisions, and tool roles.
-- [x] Document Codex and Claude's shared starting prompt and observed output comparison; distinguish the separately prompted Stitch iteration.
-- [ ] Add Claude screenshots/export and Stitch follow-up history if available to strengthen the preserved evidence.
-- [ ] Review and personalize the reflection.
-- [ ] Record and add the 5–10 minute Loom.
-- [ ] Confirm instructor access to the Notion page, attachments, Loom, and any private GitHub repository.
-- [ ] Submit the Notion page URL through the correct Blackboard assessment and confirm submission.
+- [x] I built and publicly hosted my refined portfolio with Codex.
+- [x] I added /links/ inside my site.
+- [x] I preserved my baseline and original Stitch files.
+- [x] I saved my source and meaningful history in GitHub.
+- [x] I documented my known prompts, decisions, and tool roles.
+- [x] I documented Codex and Claude's shared starting prompt and output comparison, and distinguished my separately prompted Stitch iteration.
+- [ ] I will add Claude screenshots or an export and my Stitch follow-up history if available to strengthen the evidence.
+- [ ] I will review and personalize my reflection.
+- [ ] I will record and add my 5–10 minute Loom.
+- [ ] I will confirm my instructor can access this Notion page, attachments, Loom, and my private GitHub repository if required.
+- [ ] I will submit this Notion page URL through the correct Blackboard assessment and confirm submission.
 
 Authoritative assignment: https://web3devdoc.notion.site/Module-2-Assignment-AI-Assisted-Personal-Portfolio-Design-3-Weeks-3cc9a77cdccb8097822afe1090aa0d68
