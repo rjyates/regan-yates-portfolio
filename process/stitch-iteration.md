@@ -57,3 +57,7 @@ This document records the process; it does not invent the student's personal ref
 ## September 22 content refinement
 
 At Regan's request, removed the onboarding improvement proposal from the published portfolio. Featured work now includes OneGauge, Luther, and Vera only. Removed the IT Operations filter, updated the project count to three, and renumbered projects. Employment history remains in the experience and resume sections. Earlier process records and the baseline are preserved as historical class artifacts outside the public site.
+
+## High-level overview refinement
+
+Regan requested a site about their work and direction rather than another resume. Replaced the homepage chronology, skills list, education list, detailed OneGauge case study, and project filters with a personal introduction, three focus areas, short project summaries, approach, and career direction. Retained detailed background on /resume/. Preserved the Stitch typography, colors, and editorial style.
