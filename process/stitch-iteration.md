@@ -61,3 +61,7 @@ At Regan's request, removed the onboarding improvement proposal from the publish
 ## High-level overview refinement
 
 Regan requested a site about their work and direction rather than another resume. Replaced the homepage chronology, skills list, education list, detailed OneGauge case study, and project filters with a personal introduction, three focus areas, short project summaries, approach, and career direction. Retained detailed background on /resume/. Preserved the Stitch typography, colors, and editorial style.
+
+## Supplied PDF resume
+
+Added Regan_Yates_Resume.pdf exactly as supplied, with downloads on the resume and quick-links pages. Regan explicitly chose to keep the onboarding proposal in this PDF only; the homepage still excludes it. The LinkedIn hyperlink in the PDF points to the existing profile, despite its shortened display label.
