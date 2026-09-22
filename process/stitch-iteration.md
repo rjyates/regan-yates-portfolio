@@ -53,3 +53,7 @@ Two tools are represented: the user's supplied Stitch design and this Codex impl
 - Notion submission page and Blackboard submission.
 
 This document records the process; it does not invent the student's personal reflection or claim unperformed work.
+
+## September 22 content refinement
+
+At Regan's request, removed the onboarding improvement proposal from the published portfolio. Featured work now includes OneGauge, Luther, and Vera only. Removed the IT Operations filter, updated the project count to three, and renumbered projects. Employment history remains in the experience and resume sections. Earlier process records and the baseline are preserved as historical class artifacts outside the public site.
