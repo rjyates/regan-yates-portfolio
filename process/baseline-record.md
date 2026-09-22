@@ -4,7 +4,7 @@ Baseline URL: https://regan-yates-systems-portfolio.reyyates.chatgpt.site
 
 Regan supplied this URL and identified it as the resume-only baseline created in another chat. Use this as the assignment baseline. The earlier local artifact below remains a historical draft, not the selected submission baseline.
 
-The exact prompt, model/tool identity, and source resume used in that other chat have not been independently verified here. Preserve that chat or its prompt and output screenshots for submission evidence. The web reader could not access this URL; that does not establish whether it is public or private, or whether it works in a signed-in browser.
+Verified September 22, 2026: Regan confirmed the exact prompt "Build me a portfolio page based on my resume" in Codex with the resume attached. The original task Build resume portfolio page independently records this prompt and Regan_Yates_Resume_Rebuilt_With_Links.docx as its input. The exact model version is not established. Its task records successful public sharing. The unedited site files are preserved in process/official-baseline/site/.
 
 This completes the baseline artifact entry based on Regan's confirmation. A controlled comparison across different tools/models using the same prompt remains a separate requirement.
 
@@ -48,3 +48,4 @@ The page follows resume order with a conventional blue header and white sections
 - Create a dedicated GitHub repository and save meaningful versions.
 - Assemble the Notion submission and personal reflection.
 - Record the student's 5–10 minute Loom walkthrough.
+
