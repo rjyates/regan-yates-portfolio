@@ -49,9 +49,9 @@ I found that the baseline defaults to a technical-professional identity and a re
 
 I use this comparison to explain my design process. I gave Stitch a different, style-directed prompt and later feedback, so I do not treat its comparison with the final site as a controlled model experiment. The artifacts also reveal design assumptions: technical work is framed through code/operations in the baseline, while the Stitch reference signals leadership through formal typography and impact metrics. I do not consider either style inherently more credible, and I need to verify any generated seniority or results.
 
-### Same-prompt comparison — Codex and Claude
+### Resume-only prompt comparison — Codex and Claude
 
-I supplied the [Claude portfolio](https://claude.ai/artifact/EppNqrwEJZuFMmXeq7RTxK) after using the same “Build me a portfolio page based on my resume” prompt. I compare Codex and Claude for the same-prompt experiment and use Stitch for the separate design-refinement stage. I have not recorded the exact model versions or the resume file version attached in Claude.
+I used Codex and Claude for a resume-only portfolio comparison and Stitch for a separate design-refinement stage. My Codex prompt was “Build me a portfolio page based on my resume”. My screenshot shows that my Claude prompt was “Make me a portfolio page based on my resume”. These requests have the same intent, but I am preserving the one-word difference rather than describing them as verbatim identical. My [Claude portfolio](https://claude.ai/artifact/EppNqrwEJZuFMmXeq7RTxK) is linked here. I have not recorded the exact model versions or the resume file version attached in Claude.
 
 I used Codex to inspect the Claude artifact in the browser on September 22, 2026. In that check, it loaded without signing in and its sharing control reported access for anyone with the link.
 
@@ -60,7 +60,7 @@ I used Codex to inspect the Claude artifact in the browser on September 22, 2026
 - Content: I found that both retain detailed employment, skills, education, Vera, Luther, Index, and the TAP onboarding proposal. Claude gives the proposal a separate callout. The final portfolio instead prioritizes OneGauge, Luther, and Vera, omits the proposal from the homepage, and leaves detailed history to the resume.
 - Assumptions and bias: I noticed that both interpret a portfolio request mainly as a structured resume. Claude elevates organizational scale figures to the hero, which can imply individual impact if not contextualized. Its Vera label is “Personal Project” without a clear in-design label; Codex explicitly labels Vera “In Design.” Claude also says Index details will be shared “when it ships,” a future commitment I would need to approve before publishing.
 - Decision: I chose to retain clear contact links and concise technical framing while using the Stitch editorial direction and my content priorities for the final site. I am not claiming that one underlying model is generally better.
-- Verification limits: My documented comparison covers visible desktop content and structure. I have not completed testing of Claude's mobile layout, copy-email behavior, or full interaction flow. I can add an export or screenshots to strengthen my evidence.
+- Verification limits: My documented comparison covers visible desktop content and structure. I have not completed testing of Claude's mobile layout, copy-email behavior, or full interaction flow. I have attached my Claude prompt-and-output screenshot as evidence.
 
 ## My reflection — AI-assisted draft
 
@@ -74,7 +74,7 @@ Best practices: I would treat AI as a collaborator whose output needs review, se
 
 - 0:00–0:45: I will introduce myself, the assignment, and my professional audience.
 - 0:45–1:45: I will show the Codex baseline, exact prompt, and what it assumed from the resume.
-- 1:45–2:45: I will show the Claude artifact alongside the Codex baseline, identify the shared resume-only prompt, and compare ordering, tone, scope metrics, and project-status assumptions.
+- 1:45–2:45: I will show the Claude artifact alongside the Codex baseline, explain the equivalent resume-only requests and their one-word difference, and compare ordering, tone, scope metrics, and project-status assumptions.
 - 2:45–3:45: I will show the original Stitch screenshot and chosen typography, palette, and layout. I will explain why I selected this direction in my own words.
 - 3:45–5:15: I will walk through my final site and explain the projects-only decision, overview versus resume, leadership direction, and cybersecurity interest.
 - 5:15–6:15: I will show /links/ at phone width, open LinkedIn, and demonstrate my resume download.
@@ -90,7 +90,7 @@ This is my recording outline; I have not added the finished recording yet. I sti
 - [x] I preserved my baseline and original Stitch files.
 - [x] I saved my source and meaningful history in GitHub.
 - [x] I documented my known prompts, decisions, and tool roles.
-- [x] I documented Codex and Claude's shared starting prompt and output comparison, and distinguished my separately prompted Stitch iteration.
+- [x] I documented Codex and Claude's resume-only prompts, their one-word difference, and the output comparison, and distinguished my separately prompted Stitch iteration.
 - [ ] I will add Claude screenshots or an export and my Stitch follow-up history if available to strengthen the evidence.
 - [ ] I will review and personalize my reflection.
 - [ ] I will record and add my 5–10 minute Loom.
@@ -98,3 +98,7 @@ This is my recording outline; I have not added the finished recording yet. I sti
 - [ ] I will submit this Notion page URL through the correct Blackboard assessment and confirm submission.
 
 Authoritative assignment: https://web3devdoc.notion.site/Module-2-Assignment-AI-Assisted-Personal-Portfolio-Design-3-Weeks-3cc9a77cdccb8097822afe1090aa0d68
+
+## Claude screenshot evidence
+
+I preserved my prompt and Claude's output in references/claude/prompt-and-portfolio.png. The screenshot shows my exact prompt, “Make me a portfolio page based on my resume”, and Claude's dark, amber-accented motorsports-gauge design. Claude attributes that direction to my OneGauge work and identifies the “4+ years” figure as its own calculation.
