@@ -1,5 +1,6 @@
 from pathlib import Path
 from lxml import html, etree
+from project_stories import story
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'dist'
 source=html.fromstring((ROOT/'references/stitch/code.html').read_text(encoding='utf8'))
@@ -11,7 +12,7 @@ for link in list(head.findall('link')):
 etree.SubElement(head,'title').text='Regan Yates | Technology Leadership & Architecture'
 etree.SubElement(head,'meta',name='description',content='Regan Yates connects technical leadership, enterprise IT, systems architecture, and automation with business needs.')
 etree.SubElement(head,'link',rel='stylesheet',href='/stitch.css')
-etree.SubElement(head,'link',rel='stylesheet',href='/refinements.css?v=overview-1')
+etree.SubElement(head,'link',rel='stylesheet',href='/refinements.css?v=stories-1')
 etree.SubElement(head,'link',rel='icon',href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231b1c1a'/%3E%3Ctext x='5' y='22' fill='%23faf9f5' font-family='serif' font-size='18'%3ERY%3C/text%3E%3C/svg%3E")
 HEAD=html.tostring(head,encoding='unicode')
 EMAIL='mailto:reganjeanyates@gmail.com'
@@ -35,6 +36,10 @@ ROLES='''<article class="role"><span class="technical bronze">APR 2026 – PRESE
 EDUCATION='''<h3>Education</h3><p><strong>Master of Information Systems<br>Cybersecurity Management</strong><small>University of Arkansas · Sam M. Walton College of Business<br>Expected 2027</small></p><p><strong>BA in Computer Science</strong><small>University of Arkansas · 2024<br>Minor in Sociology/Criminology</small></p><p><strong>AS in Liberal Arts and Sciences</strong><small>Arkansas State University-Beebe · 2020</small></p>'''
 SKILLS='''<h3>Technical Foundation</h3><p><strong>Cloud &amp; enterprise:</strong> Microsoft Azure, Intune, Active Directory, endpoint management, identity and access administration.</p><p><strong>Development &amp; scripting:</strong> C/C++, Java, Python, SQL, JavaScript, HTML/CSS, R, Bash, and PowerShell.</p><p><strong>Systems:</strong> Linux, Windows, macOS, Docker, embedded systems, and CAN bus.</p>'''
 CONTACT=section(f'''<div class="contact-panel"><div><p class="label bronze">Let’s Connect</p><h2>Technology That Moves an Organization Forward.</h2><p>I’m interested in opportunities to guide technology decisions, improve systems, and lead meaningful change. Let’s talk about what your team is building.</p></div><div class="contact-actions"><a class="action" href="{EMAIL}">Email Regan</a><a class="action outline" href="/resume/">View Background</a></div></div>''','id="contact"')
+project_tree=html.fromstring(PROJECTS)
+for project in project_tree.xpath('.//article[@data-project]'):
+    project.append(html.fromstring(story(project.get('data-project'))))
+PROJECTS=html.tostring(project_tree,encoding='unicode')
 REMAINING=FOCUS+PROJECTS+APPROACH+DIRECTION+CONTACT
 OUT.joinpath('index.html').write_text(page(HERO+REMAINING),encoding='utf8')
 (OUT/'links').mkdir(exist_ok=True)
@@ -43,3 +48,4 @@ links=f'''<main class="link-shell" id="main"><div class="monogram" aria-hidden="
 (OUT/'resume').mkdir(exist_ok=True)
 resume=section('''<p class="technical bronze">BACKGROUND &amp; RÉSUMÉ</p><h1 class="font-display-lg text-display-lg mt-3">Regan Yates</h1><p class="hero-subtitle">Technical leadership, systems architecture, and automation.</p><p class="body-copy mt-5 max-w-3xl">Technical lead and IT operations professional with experience spanning software and firmware development, enterprise endpoint administration, process automation, and team leadership.</p><div class="flex flex-wrap gap-3 mt-6"><a class="action" href="/Regan_Yates_Resume.pdf" download="Regan_Yates_Resume.pdf">Download Résumé (PDF)</a><a class="action" href="'''+EMAIL+'''">Get in Touch</a><a class="action outline" href="/#work">View Selected Work</a></div>''')+section('<div class="about-grid"><div><h2 class="section-title">Experience</h2>'+ROLES+'</div><div class="credentials" style="display:block;margin-top:0">'+EDUCATION+'<div class="mt-8">'+SKILLS+'</div><h3 class="mt-8">Professional Involvement</h3><p>Women in Technology of Northwest Arkansas; founding member of Girls in Tech at the University of Arkansas; University of Arkansas High School Programming Contest volunteer.</p></div></div>')
 (OUT/'resume/index.html').write_text(page(resume,'Regan Yates | Background &amp; Résumé'),encoding='utf8')
+

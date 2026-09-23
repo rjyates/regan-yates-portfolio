@@ -73,3 +73,6 @@ Removed specific target job titles from the direction section at Regan's request
 ## Separate-chat baseline supplied
 
 Regan identified https://regan-yates-systems-portfolio.reyyates.chatgpt.site as the resume-only baseline created in another chat. It replaces the earlier local draft as the selected assignment baseline. Preserve its prompt/chat and screenshots; no need to generate another baseline. This does not by itself complete the same-prompt, multiple-model comparison.
+
+## September 23: Project stories
+Added native expandable stories for OneGauge, Luther, and Vera, covering the problem, role, tradeoff, and current status. Added semantic HTML workflow diagrams, with Vera explicitly conceptual. Verified all disclosures, keyboard activation, narrow layout and desktop layout with no desktop horizontal overflow. No new metrics or technology-stack claims added.
