@@ -1,0 +1,14 @@
+36bae16 2026-09-23 Add expandable project stories and workflow diagrams
+95d978f 2026-09-23 Preserve Claude screenshot and exact prompt wording
+910cece 2026-09-22 Rewrite submission documentation in first person
+2305ff5 2026-09-22 Add Claude comparison and correct Stitch prompt history
+b5ffd8e 2026-09-22 Record confirmed shared Stitch prompt and iterative design evidence
+c53afbd 2026-09-22 Document assignment submission and preserve official baseline
+fbbb898 2026-09-22 Record separate-chat resume-only baseline for assignment
+adbbad2 2026-09-22 Update Site source
+0eaa81a 2026-09-22 Update Site source
+90027e5 2026-09-22 Update Site source
+eabe70a 2026-09-22 Update Site source
+30f852b 2026-09-21 Record verified GitHub access for portfolio backup
+66203e9 2026-09-21 Adapt supplied Stitch design into leadership portfolio and mobile links page
+5f38bc2 2026-09-21 Preserve initial resume-based portfolio baseline
