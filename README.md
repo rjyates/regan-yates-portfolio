@@ -1,34 +1,61 @@
-# Regan Yates Portfolio
+<p align="center"><img src="docs/assets/banner.svg" alt="Professional Portfolio — Connecting technical work with a broader direction." width="100%"></p>
 
-[Visit my portfolio](https://regan-yates-portfolio.reyyates.chatgpt.site/)
+[Regan Yates](https://github.com/rjyates) · [Homelab](https://github.com/rjyates/homelab)
 
-A standalone professional portfolio focused on technology leadership, systems architecture, automation, and business transformation. The visual foundation is Regan's supplied Stitch export.
+
+# Regan Yates — professional portfolio
+
+**[Visit the portfolio](https://regan-yates-portfolio.reyyates.chatgpt.site/)** · [Background & résumé](https://regan-yates-portfolio.reyyates.chatgpt.site/resume/)
+
+A static portfolio and mobile networking site presenting my technical background, selected projects, and developing direction in technology leadership. It connects experience with interests in systems architecture, automation, and business problem-solving.
 
 ## Pages
 
-- `/`: selected professional work, personal projects, leadership direction, experience, and contact.
-- `/links/`: mobile-first networking page.
-- `/resume/`: readable professional background and résumé summary.
+| Route | Purpose |
+| :--- | :--- |
+| `/` | Introduction, selected work, approach, experience, and contact |
+| `/links/` | Compact mobile networking page |
+| `/resume/` | Readable professional background |
 
-Only `dist/` is published. The baseline, assignment documentation, and original Stitch export are outside the public site. Hosting and version history are dedicated to this portfolio and separate from assistant projects. No assistant services, credentials, or integrations are connected.
+## Local preview
 
-## Source and editing
+The generated site is already in `dist/`. From the repository root:
 
-- `scripts/build.py` generates the HTML from resume-backed content and the supplied Stitch document's font definitions.
-- `dist/stitch.css` contains static equivalents of the Stitch utility classes used by these pages.
-- `dist/refinements.css` adapts the layout for mobile and adds working navigation and networking-page styles.
-- `dist/site.js` implements the mobile menu and project filters.
-- `references/stitch/` preserves the original exported HTML, design specification, and screenshot.
-- `baseline/` preserves the initial comparison artifact.
-- `process/` records decisions and remaining class requirements.
+```text
+python -m http.server 4321 --bind 127.0.0.1 --directory dist
+```
 
-Run `python scripts/build.py` after content edits. The builder uses `lxml`. Serve `dist/` with any static HTTP server; for example `python -m http.server 4321 --directory dist`. Styles use Google Fonts with local serif/sans-serif fallbacks. The production page does not need the Tailwind browser runtime or a JavaScript framework.
+Open `http://127.0.0.1:4321`. The browser site requires no JavaScript framework or application database. Google Fonts are external dependencies, with local fallback fonts.
 
-## Content integrity
+## Editing and rebuilding
 
-OneGauge is ongoing development. The Temporary Access Pass work is a proposal presented to the CIO. Organizational scale figures describe the supported organization, not independently measured individual outcomes. Luther is a built research tool; Vera remains in design/development. Index is omitted pending a substantive description. The Stitch example persona, financial results, executive level, compliance claims, and invented architecture records are not part of the portfolio.
+The builder requires Python and `lxml` in your chosen environment:
 
-## Verification
+```text
+python -m pip install lxml
+python scripts/build.py
+```
 
-Checked internal routes, assets and anchors; one primary heading per page; JavaScript syntax; desktop and mobile layouts; filter behavior; mobile menu and link destinations. See the process record for specifics and remaining submission work.
+Edit source content in `scripts/`, then rebuild rather than treating generated HTML as the only source. Publish **only `dist/`** after reviewing its contents.
 
+| Location | Responsibility |
+| :--- | :--- |
+| [scripts/build.py](scripts/build.py) | Page generation and shared layout |
+| [scripts/project_stories.py](scripts/project_stories.py) | Project-story content |
+| [dist/](dist/) | Generated public site |
+| `dist/stitch.css`, `dist/refinements.css`, `dist/catppuccin.css` | Styling and responsive refinements |
+| `dist/site.js` | Mobile navigation and project filtering |
+| [references/stitch/](references/stitch/) | Supplied design source and provenance |
+| [process/](process/) | Existing process/verification records |
+
+## Design and content boundaries
+
+The supplied Stitch export is the design foundation; the repository preserves that provenance. This documentation uses the shared Catppuccin presentation, while the website preserves its responsive layout with a Catppuccin color overlay.
+
+Content distinguishes current responsibilities, proposals, completed work, and ongoing projects. OneGauge work remains ongoing; the Temporary Access Pass workflow is a proposal, not a claimed deployment. Vera remains in development. Organizational scale is not presented as a measured personal outcome.
+
+No assistant services or private integrations are connected to this standalone site. The public portfolio URL above was verified during this documentation review.
+
+## Verification and next steps
+
+Existing process notes describe prior visual and behavior checks. The current documentation pass checks generated local routes/assets; it does not certify deployment or repeat all interactive tests. Fresh responsive screenshots and a repeatable build/link check are useful next steps.
