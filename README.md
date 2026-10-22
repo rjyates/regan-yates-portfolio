@@ -1,5 +1,7 @@
 # Regan Yates Portfolio
 
+[Visit my portfolio](https://regan-yates-portfolio.reyyates.chatgpt.site/)
+
 A standalone professional portfolio focused on technology leadership, systems architecture, automation, and business transformation. The visual foundation is Regan's supplied Stitch export.
 
 ## Pages
@@ -29,3 +31,4 @@ OneGauge is ongoing development. The Temporary Access Pass work is a proposal pr
 ## Verification
 
 Checked internal routes, assets and anchors; one primary heading per page; JavaScript syntax; desktop and mobile layouts; filter behavior; mobile menu and link destinations. See the process record for specifics and remaining submission work.
+

@@ -14,6 +14,7 @@ etree.SubElement(head,'meta',name='description',content='Regan Yates connects te
 etree.SubElement(head,'link',rel='stylesheet',href='/stitch.css')
 etree.SubElement(head,'link',rel='stylesheet',href='/refinements.css?v=stories-1')
 etree.SubElement(head,'link',rel='icon',href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231b1c1a'/%3E%3Ctext x='5' y='22' fill='%23faf9f5' font-family='serif' font-size='18'%3ERY%3C/text%3E%3C/svg%3E")
+etree.SubElement(head,'link',rel='stylesheet',href='/catppuccin.css?v=1')
 HEAD=html.tostring(head,encoding='unicode')
 EMAIL='mailto:reganjeanyates@gmail.com'
 LINKEDIN='https://www.linkedin.com/in/regan-yates-85ab711ba/'
@@ -48,4 +49,5 @@ links=f'''<main class="link-shell" id="main"><div class="monogram" aria-hidden="
 (OUT/'resume').mkdir(exist_ok=True)
 resume=section('''<p class="technical bronze">BACKGROUND &amp; RÉSUMÉ</p><h1 class="font-display-lg text-display-lg mt-3">Regan Yates</h1><p class="hero-subtitle">Technical leadership, systems architecture, and automation.</p><p class="body-copy mt-5 max-w-3xl">Technical lead and IT operations professional with experience spanning software and firmware development, enterprise endpoint administration, process automation, and team leadership.</p><div class="flex flex-wrap gap-3 mt-6"><a class="action" href="/Regan_Yates_Resume.pdf" download="Regan_Yates_Resume.pdf">Download Résumé (PDF)</a><a class="action" href="'''+EMAIL+'''">Get in Touch</a><a class="action outline" href="/#work">View Selected Work</a></div>''')+section('<div class="about-grid"><div><h2 class="section-title">Experience</h2>'+ROLES+'</div><div class="credentials" style="display:block;margin-top:0">'+EDUCATION+'<div class="mt-8">'+SKILLS+'</div><h3 class="mt-8">Professional Involvement</h3><p>Women in Technology of Northwest Arkansas; founding member of Girls in Tech at the University of Arkansas; University of Arkansas High School Programming Contest volunteer.</p></div></div>')
 (OUT/'resume/index.html').write_text(page(resume,'Regan Yates | Background &amp; Résumé'),encoding='utf8')
+
 
